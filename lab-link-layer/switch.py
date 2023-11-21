@@ -6,7 +6,6 @@ from cougarnet.sim.host import BaseHost
 class Switch(BaseHost):
     def __init__(self):
         super().__init__()
-        super().__init__()
         self._outgoing = {}
         self._remove_events = {}
         self._vlans = {}
